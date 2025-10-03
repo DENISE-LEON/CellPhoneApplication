@@ -55,4 +55,13 @@ public class CellPhone {
         this.ownerName = ownerName;
 
     }
+    public CellPhone() {
+        this.serialNum = 0;
+        this.model = "";
+        this.carrier = "";
+        this.phoneNum = "";
+        this.ownerName = "";
+
+    }
 }
+

@@ -27,7 +27,18 @@ public class CellPhoneApplication {
         //initiating cellphone class
         CellPhone dPhone = new CellPhone(serialNum, model, carrier, phoneNum, ownerName);
 
-        System.out.println(dPhone.getModel());
+        CellPhone lphone = new CellPhone();
+        lphone.setCarrier(carrier);
+        lphone.setSerialNum(serialNum);
+        lphone.setPhoneNum(phoneNum);
+        lphone.setModel(model);
+        lphone.setOwnerName(ownerName);
+
+        System.out.println(lphone.getModel());
+        System.out.println(lphone.getCarrier());
+        System.out.println(lphone.getSerialNum());
+        System.out.println(lphone.getPhoneNum());
+        System.out.println(lphone.getOwnerName());
 
 
     }
